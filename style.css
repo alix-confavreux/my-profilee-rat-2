@@ -1,0 +1,146 @@
+body {
+background-color : rgb(250,250,250) ;
+color : #256D85 ;
+font-family : Abril Fatface, cursive ;
+font-size : 15px;
+
+line height : 1.6;
+letter spacing : 10px;
+text-justify : center;
+}
+
+
+h1, h2 {
+	font-family : Courier ;
+	color : #00425A 
+}
+
+
+h3 {
+color : #00425A  
+font-weight : lighter;
+}
+
+
+h2 {
+font-weight : bold;
+}
+
+
+a {
+	text-decoration: none; 
+	color: #EE6983;
+}
+
+a:hover {
+	color: #609EA2; 
+}
+
+li {
+	font-weight : lighter;
+}
+
+#TDR {
+width : 100px;
+height : 100px;
+}
+
+#voilier {
+width : 310px;
+height : 200px;
+}
+
+#plage {
+width : 310px;
+height : 200px;
+}
+
+#sable {
+width : 310px;
+height : 200px;
+}
+
+
+#haut {
+width : 310px;
+height : 200px;
+}
+
+#Alix {
+width : 200px;
+height : 300px;
+}
+
+svg {
+width : 40px;
+height : 40px;
+}
+
+
+#lyon1 {
+width : 220px;
+height : 200px;
+}
+
+#lyon2 {
+width : 320px;
+height : 200px;
+}
+
+#lyon3 {
+width : 310px;
+height : 200px;
+}
+
+.container {
+	width: 1100px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+#assos{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+	h2: center;
+}
+
+.btn-blue{
+	background-color: #22577a;
+	color: white; 
+	padding: 8px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #609EA2;
+	color: white;
+}
+
+.list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+#introduction p {
+margin-bottom: 30px;
+}
